@@ -1,2 +1,2 @@
 # LightSwarm
-A Swarm Intelligence project involving interacting Esp8266 nodes and a master Raspberry pi acting as the hub
+A Swarm Intelligence project involving interacting Esp8266 nodes and a master Raspberry pi acting as the hub. Integration with IBM cloud bluemix has also been done through nodered where the message broadcast (Light sensor value) as UDP from the Master ESP8266 to the Raspberry pi is being stored on the cloudant DB. Integration with cloudant DB has also been done where all the values from the DB are fetched and their avg is computed. 
